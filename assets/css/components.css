@@ -334,3 +334,62 @@ nav .active{
 
 }
 
+/* ==========================================
+   WELCOME
+========================================== */
+
+.welcome{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+.welcome h1{
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+.welcome p{
+
+    margin-top:10px;
+
+    color:var(--text-muted);
+
+}
+
+.date-box{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    padding:18px 24px;
+
+    border-radius:16px;
+
+    text-align:right;
+
+}
+
+.date-box span{
+
+    color:var(--text-muted);
+
+}
+
+.date-box h2{
+
+    margin-top:6px;
+
+    font-size:22px;
+
+}
