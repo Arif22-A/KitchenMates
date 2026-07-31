@@ -1,0 +1,95 @@
+.logo{
+
+    padding:30px;
+
+}
+
+.logo h1{
+
+    font-size:26px;
+
+    font-weight:700;
+
+}
+
+.logo span{
+
+    display:block;
+
+    margin-top:8px;
+
+    color:var(--primary);
+
+    font-size:14px;
+
+}
+
+.logo small{
+
+    display:block;
+
+    margin-top:5px;
+
+    color:var(--text-muted);
+
+}
+
+/* ========================= */
+
+nav{
+
+    margin-top:25px;
+
+}
+
+nav a{
+
+    height:52px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:0 25px;
+
+    color:var(--text-muted);
+
+    transition:var(--transition);
+
+    cursor:pointer;
+
+}
+
+nav a:hover{
+
+    background:var(--surface-2);
+
+    color:white;
+
+}
+
+/* ========================= */
+
+nav .active{
+
+    border-left:4px solid var(--primary);
+
+    background:var(--surface-2);
+
+    color:white;
+
+}
+
+/* ========================= */
+
+.logout{
+
+    margin-top:auto;
+
+    padding:25px;
+
+    border-top:1px solid var(--border);
+
+}
