@@ -1,0 +1,168 @@
+/* =========================================
+   Kitchen Mates Responsive
+   by O-One Engine
+========================================= */
+
+/* =========================================
+   Large Desktop
+========================================= */
+
+@media (min-width:1600px){
+
+.dashboard{
+
+    padding:40px;
+
+}
+
+}
+
+/* =========================================
+   Laptop
+========================================= */
+
+@media (max-width:1366px){
+
+.sidebar{
+
+    width:250px;
+
+}
+
+.topbar{
+
+    padding:0 20px;
+
+}
+
+.dashboard{
+
+    padding:20px;
+
+}
+
+}
+
+/* =========================================
+   Tablet Landscape
+========================================= */
+
+@media (max-width:1024px){
+
+.app{
+
+    grid-template-columns:90px 1fr;
+
+}
+
+.logo h1{
+
+    display:none;
+
+}
+
+.logo span{
+
+    display:none;
+
+}
+
+.logo small{
+
+    display:none;
+
+}
+
+nav a span{
+
+    display:none;
+
+}
+
+nav a{
+
+    justify-content:center;
+
+}
+
+.logout{
+
+    text-align:center;
+
+    font-size:14px;
+
+}
+
+}
+
+/* =========================================
+   Mobile
+========================================= */
+
+@media (max-width:768px){
+
+    .app{
+    
+        grid-template-columns:1fr;
+    
+    }
+    
+    .sidebar{
+    
+        position:fixed;
+    
+        left:-280px;
+    
+        top:0;
+    
+        width:280px;
+    
+        height:100%;
+    
+        z-index:999;
+    
+        transition:.3s;
+    
+    }
+    
+    .sidebar.active{
+    
+        left:0;
+    
+    }
+    
+    .topbar{
+    
+        height:65px;
+    
+        padding:15px;
+    
+    }
+    
+    .dashboard{
+    
+        padding:15px;
+    
+    }
+    
+    }
+
+    /* =========================================
+   Small Mobile
+========================================= */
+
+@media (max-width:480px){
+
+    .topbar h2{
+    
+        font-size:18px;
+    
+    }
+    
+    .dashboard{
+    
+        padding:12px;
+    
+    }
+    
+    }
