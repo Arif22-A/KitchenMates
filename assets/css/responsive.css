@@ -171,9 +171,51 @@ nav a{
 
 @media(max-width:768px){
 
-.action-grid{
+.app{
 
-    grid-template-columns:repeat(2,1fr);
+grid-template-columns:1fr;
+
+}
+
+.sidebar{
+
+left:-300px;
+
+position:fixed;
+
+z-index:999;
+
+}
+
+.topbar{
+
+padding:15px;
+
+}
+
+.welcome{
+
+flex-direction:column;
+
+}
+
+.date-box{
+
+width:100%;
+
+text-align:center;
+
+}
+
+.kpi-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.bottom-grid{
+
+grid-template-columns:1fr;
 
 }
 
