@@ -393,3 +393,99 @@ nav .active{
     font-size:22px;
 
 }
+
+/* ==========================================
+   QUICK ACTIONS
+========================================== */
+
+.quick-actions{
+
+    margin-bottom:30px;
+
+}
+
+.section-title{
+
+    margin-bottom:18px;
+
+}
+
+.section-title h2{
+
+    font-size:24px;
+
+    font-weight:700;
+
+}
+
+.section-title span{
+
+    color:var(--text-muted);
+
+    font-size:14px;
+
+}
+
+.action-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:18px;
+
+}
+
+.action-card{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:16px;
+
+    padding:24px;
+
+    text-align:left;
+
+    transition:.25s;
+
+    color:var(--text);
+
+}
+
+.action-card:hover{
+
+    transform:translateY(-4px);
+
+    border-color:var(--primary);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+}
+
+.action-card i{
+
+    font-size:28px;
+
+    color:var(--primary);
+
+    margin-bottom:18px;
+
+}
+
+.action-card h3{
+
+    margin-bottom:8px;
+
+    font-size:18px;
+
+}
+
+.action-card p{
+
+    color:var(--text-muted);
+
+    font-size:14px;
+
+}
