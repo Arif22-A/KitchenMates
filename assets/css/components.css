@@ -1,38 +1,108 @@
+/* ==========================================
+   LOGO
+========================================== */
+
 .logo{
 
-    padding:30px;
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+    margin-bottom:35px;
 
 }
 
-.logo h1{
+.logo-icon{
 
-    font-size:26px;
+    width:64px;
 
-    font-weight:700;
+    height:64px;
+
+    border-radius:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(
+        135deg,
+        #06B6D4,
+        #2563EB
+    );
+
+    box-shadow:
+        0 12px 35px rgba(37,99,235,.35);
+
+    position:relative;
+
+    overflow:hidden;
 
 }
 
-.logo span{
+.logo-icon::before{
 
-    display:block;
+    content:"";
 
-    margin-top:8px;
+    position:absolute;
 
-    color:var(--primary);
+    top:-25px;
 
-    font-size:14px;
+    left:-25px;
+
+    width:80px;
+
+    height:80px;
+
+    background:rgba(255,255,255,.15);
+
+    border-radius:50%;
+
+}
+
+.logo-icon span{
+
+    color:white;
+
+    font-size:34px;
+
+    font-weight:800;
+
+    z-index:2;
 
 }
 
-.logo small{
+.logo-text h1{
 
-    display:block;
+    font-size:22px;
 
-    margin-top:5px;
+    margin:0;
 
-    color:var(--text-muted);
+    color:white;
 
 }
+
+.logo-text p{
+
+    margin-top:4px;
+
+    color:#94A3B8;
+
+    font-size:13px;
+
+}
+
+.logo-text small{
+
+    color:#64748B;
+
+    font-size:11px;
+
+}
+
 
 /* ========================= */
 
