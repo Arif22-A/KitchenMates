@@ -132,19 +132,13 @@ nav .active{
 
     border:1px solid var(--border);
 
-    border-radius:16px;
+    border-radius:18px;
 
-    padding:22px;
+    padding:18px;
 
-    display:flex;
+    min-height:190px;
 
-    flex-direction:column;
-
-    gap:12px;
-
-    transition:.25s ease;
-
-    cursor:pointer;
+    transition:.25s;
 
 }
 
@@ -158,11 +152,11 @@ nav .active{
 
 .kpi-icon{
 
-    width:52px;
+    width:60px;
 
-    height:52px;
+    height:60px;
 
-    border-radius:14px;
+    border-radius:18px;
 
     display:flex;
 
@@ -174,7 +168,9 @@ nav .active{
 
     color:var(--primary);
 
-    font-size:22px;
+    font-size:24px;
+
+    margin-bottom:20px;
 
 }
 
@@ -188,23 +184,19 @@ nav .active{
 
 .kpi-value{
 
-    font-size:30px;
+    font-size:36px;
 
     font-weight:700;
+
+    margin:12px 0;
 
 }
 
 .kpi-trend{
 
-    display:flex;
-
-    align-items:center;
-
-    gap:8px;
+    font-size:13px;
 
     color:var(--success);
-
-    font-size:14px;
 
 }
 
@@ -344,17 +336,21 @@ nav .active{
 
     justify-content:space-between;
 
-    align-items:center;
+    align-items:flex-start;
 
-    margin-bottom:30px;
+    margin-bottom:35px;
+
+    gap:30px;
 
 }
 
 .welcome h1{
 
-    font-size:34px;
+    font-size:42px;
 
     font-weight:700;
+
+    line-height:1.1;
 
 }
 
@@ -368,13 +364,15 @@ nav .active{
 
 .date-box{
 
+    width:240px;
+
     background:var(--surface);
 
     border:1px solid var(--border);
 
-    padding:18px 24px;
+    border-radius:18px;
 
-    border-radius:16px;
+    padding:18px;
 
     text-align:right;
 
